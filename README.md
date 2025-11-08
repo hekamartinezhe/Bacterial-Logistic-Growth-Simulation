@@ -1,7 +1,7 @@
-# Bacterial-Logistic-Growth-Simulation
+# Bacterial Logistic Growth and Decay Simulation
 Probably not very accurate logistic bacterial growth simulation using matplotlib and numpy.
 
-# Bacterial Logistic Growth and Decay Simulation
+
 
 ## Main Purpose
 
@@ -11,7 +11,7 @@ The primary objective is to **understand the full life cycle kinetics** of an in
 
 By modeling the speed at which an infection reaches its carrying capacity ($K$) and how it behaves afterward, an intervention can be designed to collapse the growth rate ($\mu$) and permit recovery.
 
-[Image of bacterial growth curve with 4 phases]
+
 
 ## The Models
 
@@ -22,11 +22,11 @@ This model describes the "S-curve" growth phase, where the population is limited
 $$N(t) = \frac{K}{1 + \left(\frac{K - N_0}{N_0}\right) e^{-\mu t}}$$
 
 Where:
-* **$N(t)$**: Population at time $t$.
-* **$K$**: Carrying capacity (maximum sustainable population).
-* **$N_0$**: Initial population.
-* **$\mu$ (mu)**: Specific growth rate.
-* **$t$**: Time.
+- **$N(t)$**: Population at time $t$.
+- **$K$**: Carrying capacity (maximum sustainable population).
+- **$N_0$**: Initial population.
+- **$\mu$ (mu)**: Specific growth rate.
+- **$t$**: Time.
 
 ### 2. The Decay (Death) Phase Model
 
@@ -45,5 +45,5 @@ The solution $N(t)$ for the decay phase (starting after the stationary phase) is
 $$N(t) = K \cdot e^{-k_d (t - t_s)}$$
 
 Where:
-* **$N(t)$**: Population at time $t$ (during the death phase).
-*
+- **$N(t)$**: Population at time $t$ (during the death phase).
+-
