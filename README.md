@@ -5,7 +5,7 @@ Probably not very accurate logistic bacterial growth simulation using matplotlib
 
 ## Main Purpose
 
-This project aims to **simulate and visualize the logistic growth model** ($N(t)$) for a pathogenic bacterial population, such as *Pseudomonas aeruginosa*.
+This project aims to **simulate and visualize the logistic growth model** *$N(t)$* for a pathogenic bacterial population, such as *Pseudomonas aeruginosa*.
 
 The primary objective is to **understand the full life cycle kinetics** of an infection (like SCUD). This includes the rapid growth phase and the subsequent decay phase. Understanding this entire process helps **substantiate and validate an effective treatment protocol (e.g., 22.5/1.5 dry-docking) when treating an animal with limited resources.**
 
